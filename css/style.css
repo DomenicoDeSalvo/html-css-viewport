@@ -26,12 +26,25 @@ a{
     background-color: rgb(20, 24, 31);
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    min-width: calc(100% / 4);
+    margin-bottom: 28px;
+    
+}
+
+
 /* Header */
 .app header{
     background-color: black;
     padding: 28px;
     width: 260px;
     position: relative;
+    
 }
 
 .nav__logo{
@@ -66,3 +79,19 @@ a{
 
 }
 
+.app__section{
+    padding: 40px 28px;
+}
+
+.section__title{
+    margin-bottom: 32px;
+}
+
+.article__title{
+    margin-bottom: 15px;
+}
+
+.article{
+    border-left: 4px solid white;
+    padding: 0 12px;
+}
