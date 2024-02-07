@@ -95,3 +95,7 @@ a{
     border-left: 4px solid white;
     padding: 0 12px;
 }
+
+.section__list{
+    margin: 20px;
+}
