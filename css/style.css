@@ -16,3 +16,12 @@ a{
     color: currentColor;
 }
 
+/* LAYOUT */
+
+.app{
+    display: flex;
+    height: 100vh;
+    color: white;
+    background-color: rgb(20, 24, 31);
+}
+
