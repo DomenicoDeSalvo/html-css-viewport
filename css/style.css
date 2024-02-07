@@ -16,6 +16,7 @@ a{
     color: currentColor;
 }
 
+
 /* LAYOUT */
 
 .app{
@@ -25,7 +26,8 @@ a{
     background-color: rgb(20, 24, 31);
 }
 
-.bar{
+/* Header */
+.app header{
     background-color: black;
     padding: 28px;
     width: 260px;
@@ -40,5 +42,27 @@ a{
 .profile__button{
     position: absolute;
     bottom: 20px;
+}
+
+/* Main */
+
+.app main{
+    flex-grow: 1;
+}
+
+.head-main{
+    display: flex;
+    background-color: rgb(16, 19, 25);
+    flex-direction: row-reverse;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    line-height: 40px;
+    border-radius: 999px;
+    margin: 20px;
+    padding: 0 10px;
+
 }
 
