@@ -20,11 +20,12 @@ a{
 /* LAYOUT */
 
 .app{
-    display: flex;
     height: 100vh;
     color: white;
     background-color: rgb(20, 24, 31);
+    display: flex;
 }
+
 
 .row{
     display: flex;
@@ -98,4 +99,21 @@ a{
 
 .section__list{
     margin: 20px;
+}
+
+/* Footer */
+.app__footer{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 24px 12px;
+}
+
+.app__footer .row{
+    justify-content: space-between;
+}
+
+.footer__list{
+    list-style: none;
+    display: flex;
+    gap: 12px;
 }
